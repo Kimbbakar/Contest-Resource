@@ -1,4 +1,4 @@
-1) Trilling k digit of n!:
+1) Leading k digit of n!:
 
 We know
 log10(a) = b
@@ -21,3 +21,5 @@ so for n!
 b = log10(1*2*..*(n-1)*n) = log10(1)+log10(2) + ... + log10(n-1) + log10(n);
 
 1st k digits for n! = pow(10,y+k-1);
+
+2) 

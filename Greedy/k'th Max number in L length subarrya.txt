@@ -1,0 +1,28 @@
+
+value[]
+L = length of sub array
+k = k'th maximum 
+
+deque<pair<int,int> >d;
+
+d.first = index of element
+d.second = value of element
+
+int res=0;
+
+FOR i =1 : size(value)
+    while(!d.empty() && (d.back().F<i-L+1 || d.size()>k) )
+        d.pop_back();
+
+    while(!d.empty() && d.front().S<value[i] )
+        d.pop_front();
+
+    d.push_front(mp( i , value[i] ) );	
+
+    res=max(res,d.back() );
+
+cout<<res;
+
+Problem Resource:
+
+1) https://www.codechef.com/problems/CHSQARR

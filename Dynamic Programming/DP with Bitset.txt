@@ -1,0 +1,20 @@
+We have N different numbers, we need to answer how many different number sum we can get from the all the subset of N numbers.
+
+At first , consider A[] is the array of all N number a
+And MAX = Summation (A[i]) (1<=i<=N)
+
+Here is the sudo code.
+
+bitset<MAX> dp ;  
+
+dp.set(0);
+
+for(int i = 0; i < n; i++)
+	dp |= dp  << a[i];
+cout << dp.count() << '\n'; 
+
+
+Problem Resource:
+
+1) http://lightoj.com/volume_showproblem.php?problem=1147
+2) https://www.codechef.com/SNCKEL16/problems/RWALK/

@@ -15,7 +15,7 @@ dp[0]=1 // coz it is all time possible to make 0
 
 for(int i = 0; i < n; i++)
     for(int j = MAX; j>=A[i]; j--)
-        dp[j]=dp[j-A[i] ] // if j-A[i] is possible to build , thn j is also possible 
+        dp[j]|=dp[j-A[i] ] // if j-A[i] is possible to build , thn j is also possible 
 
 cout<<dp.count(1);
 

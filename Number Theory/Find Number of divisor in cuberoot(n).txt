@@ -32,3 +32,7 @@ for y , we can see that
  Problem Source: 
 
  1) http://codeforces.com/gym/100753 
+
+
+ Source: 
+ 1) http://codeforces.com/blog/entry/22317

@@ -1,0 +1,5 @@
+For so long time I underestimate the power of this data structure. The reason behind it is , I think that if a problem can be solve by sqrt decompo , then it also solve able by segment tree. But it is not always true. Might be it is possible to solve , some time it is hard to figure out the solution or implement in the middle of contest .
+
+Here I will write for myself , how to build a solution with this data structure.
+
+If u have N element , consider a bucket which can have S element from N. 

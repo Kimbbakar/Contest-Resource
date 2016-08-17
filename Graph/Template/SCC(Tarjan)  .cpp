@@ -30,7 +30,6 @@
 
     }
 
-    visit[nod]=2;
     if(scc[nod]==mn)
     {
         bi++;
@@ -39,6 +38,7 @@
         {
             int k=s.top();
             s.pop();
+            visit[k]=2;
 
             bcc[k]=bi;
             if(k==nod)

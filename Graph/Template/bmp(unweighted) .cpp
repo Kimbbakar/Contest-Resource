@@ -1,3 +1,7 @@
+#define MAX 1004
+
+// Run Time O(N*E)
+
 vector<int>lst[MAX];
 int match[MAX],rmatch[MAX];
 bool visit[MAX];

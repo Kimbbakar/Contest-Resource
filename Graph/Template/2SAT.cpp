@@ -12,7 +12,7 @@ int id;
 
 int dfs(int p)
 {
-    if(visit[p^1] ) return 0;
+    if(visit[(p>=m)?p-m:p+m)] ) return 0;
     if(visit[p] ) return 1;
 
     visit[p]=1;
@@ -36,7 +36,7 @@ bool solve()
 {
     bool ok=false;
 
-    for(int i=0;i<2*m && !ok;i++)
+    for(int i=0;i<m && !ok;i++)
     {
         id=0;
         if(visit[i]==0)
@@ -45,11 +45,11 @@ bool solve()
             {
                 for(int j=0;j<id;j++)
                 {
-                    visit[s[j] ]=visit[s[j]^1 ]=0;
+                    visit[s[j] ]=visit[ ((s[j]>=m)?s[j]-m:s[j]+m) ]=0;
                 }
                 id=0;
 
-                if(!dfs(i^1) )
+                if(!dfs(i+m) )
                     ok=true;
             }
         }
@@ -61,7 +61,7 @@ bool solve()
 
 void print()
 {
-    for(int i=0;i<2*m ;i++)
+    for(int i=0;i<m ;i++)
     {
         if(visit[i] )
             res.pb(i);

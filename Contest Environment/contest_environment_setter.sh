@@ -2,13 +2,13 @@
 
 clear
 
+cd E:\Code
 touch in.txt
 touch out.txt
 
 touch A.cpp
 echo "//Problem A will go here" > A.cpp
 cat Template.cpp >> A.cpp  
-cb A.cpp
 
 touch B.cpp
 echo "//Problem B will go here" > B.cpp
@@ -26,10 +26,8 @@ touch E.cpp
 echo "//Problem E will go here" > E.cpp
 cat Template.cpp >> E.cpp  
 
-cb B.cpp 
-cb C.cpp
-cb D.cpp
-cb E.cpp
+subl ['A'-'E'].cpp
+
 
 clear
 echo "Template ready"

@@ -94,6 +94,22 @@ bool lessThanEqual ( double a, double b ){if ( a < b + eps ) return true;   else
 bool greaterThan ( double a, double b ){if ( a > b + eps ) return true;else return false;}
 bool greaterThanEqual ( double a, double b ){if ( a + eps > b ) return true;else return false;}
 
+#define debug(args...) {dbg,args; cerr<<endl;}
+
+struct debugger{
+    template<typename T> debugger& operator , (const T& v){
+        cerr<<v<<" ";
+        return *this;
+    }
+}dbg;
+
+int nextInt() { int n; scanf("%d", &n); return n; }
+long long nextLong() { long long n; scanf("%lld", &n); return n; }
+void print(int n){ printf("%d", n); }
+void println(int n){ printf("%d\n", n); }
+void println(long long n){ printf("%lld\n", n); }
+
+
 
 template<class T>
 inline int in(register T& num)

@@ -79,13 +79,7 @@ template<class T>
 inline T modInverse(T n)
 {
     return fast_pow(n,mod-2);
-}
-
-template<class T>
-inline void debug(string S1,T S2,string S3)
-{
-    cout<<S1<<S2<<S3;
-}
+} 
 
 bool equalTo ( double a, double b ){ if ( fabs ( a - b ) <= eps ) return true; else return false; }
 bool notEqual ( double a, double b ){if ( fabs ( a - b ) > eps ) return true; else return false; }

@@ -29,10 +29,10 @@ for y , we can see that
 
  Note: Prime checking for y , we will use Rabin Miller.
 
- Problem Source: 
+ ## Problem Source: 
 
  1) http://codeforces.com/gym/100753 
 
 
- Source: 
+ ## Source: 
  1) http://codeforces.com/blog/entry/22317

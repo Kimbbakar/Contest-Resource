@@ -57,7 +57,7 @@ So if we do "dp |= dp  << a[i]" , we will get all old set + all new set after ad
 
 
 
-Problem Resource:
+## Problem Resource:
 
 1) http://lightoj.com/volume_showproblem.php?problem=1147
 2) https://www.codechef.com/SNCKEL16/problems/RWALK/

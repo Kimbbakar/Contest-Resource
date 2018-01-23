@@ -116,7 +116,7 @@
 ## MO’s Algorithm:
 1. Article:
 	* https://blog.anudeep2011.com/mos-algorithm/
-	* [MO's in Tree]( http://codeforces.com/blog/entry/43230)
+	* [MO's on Tree]( http://codeforces.com/blog/entry/43230)
 
 ## Trie / Prefix Tree / Radix Tree
 1. Article:

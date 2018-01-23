@@ -128,7 +128,7 @@
 	* http://www.graph-magics.com/articles/euler.php
 
 
-## Calculate $(a^b^c) % mod
+## Calculate (a^b)^c % mod 
 1. Article:
 	* http://stackoverflow.com/questions/4223313/finding-abc-mod-m
 

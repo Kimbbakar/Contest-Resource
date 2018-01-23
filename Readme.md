@@ -54,20 +54,20 @@
 
 ## String Matching
 * Knuth morris pratt:
-1. Article:
-    *  http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm
-2. Video :
-	* https://www.youtube.com/watch?v=v82y5TCcBhQ
-3. > Note : In failure function of KMP , we build an array lps. lps[i] = the longest proper prefix of pat[0..i] which is also a suffix of pat[0..i].
+	1. Article:
+	    *  http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm
+	2. Video :
+		* https://www.youtube.com/watch?v=v82y5TCcBhQ
+	3. > Note : In failure function of KMP , we build an array lps. lps[i] = the longest proper prefix of pat[0..i] which is also a suffix of pat[0..i].
 
 * Suffix Array
-1. Article:
-	* https://discuss.codechef.com/questions/21385/a-tutorial-on-suffix-arrays
+	1. Article:
+		* https://discuss.codechef.com/questions/21385/a-tutorial-on-suffix-arrays
 
 * String Hashing :
-1. Article:
-	* http://threads-iiith.quora.com/String-Hashing-for-competitive-programming 
-2. > Double hashing with unordered_map require hash function to overload. Here is the [function](https://github.com/Kimbbakar/Contest-Resource/blob/master/String/Template/Unorderd%20map%20with%20pair%20.cpp).
+	1. Article:
+		* http://threads-iiith.quora.com/String-Hashing-for-competitive-programming 
+	2. > Double hashing with unordered_map require hash function to overload. Here is the [function](https://github.com/Kimbbakar/Contest-Resource/blob/master/String/Template/Unorderd%20map%20with%20pair%20.cpp).
 
 ## Matrix Exponential:
 1. Article:
@@ -84,14 +84,14 @@
 2. Problem Link:
 	* http://codeforces.com/problemset/problem/912/E
 
-## GameTheory :
+## Game Theory :
 * Nim Game:
 	1. Video Tutorial:
 		* https://www.youtube.com/watch?v=ORaGSyewF9Q
 	2.	Article:
 		* http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=algorithmGames
 
-* Strai Case Nim:
+* Staircase Case Nim:
 	1. Article:
 		* http://codeforces.com/blog/entry/44651
 * Problem:
@@ -116,6 +116,7 @@
 ## MO’s Algorithm:
 1. Article:
 	* https://blog.anudeep2011.com/mos-algorithm/
+	* [MO's in Tree]( http://codeforces.com/blog/entry/43230)
 
 ## Trie / Prefix Tree / Radix Tree
 1. Article:

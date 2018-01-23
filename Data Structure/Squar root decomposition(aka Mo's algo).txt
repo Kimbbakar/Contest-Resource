@@ -3,3 +3,5 @@ For so long time I underestimate the power of this data structure. The reason be
 Here I will write for myself , how to build a solution with this data structure.
 
 If u have N element , consider a bucket which can have S element from N. 
+
+[ incompleted ]

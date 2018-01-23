@@ -1,3 +1,5 @@
+// Problem Link: http://www.spoj.com/problems/COT2/
+
 // Distinct Element on the path u to v 
 // Flat the Tree with DFS
 

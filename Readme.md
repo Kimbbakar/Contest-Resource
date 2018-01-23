@@ -1,4 +1,4 @@
-## A* Search / IDA* Search algorithm : 
+## A* Search / IDA* Search algorithm 
 1. Article:
 	* http://rendon.x10.mx/a-star/
 2. Video:
@@ -7,14 +7,14 @@
 	* https://www.youtube.com/watch?v=b19e0_NlD-U (8 Puzzle Problem ) 
 	* http://en.wikipedia.org/wiki/IDA* (Difference between A* & IDA*)
 
-## Bellman Ford :
+## Bellman Ford 
 1. Article:
 	* http://www.bogotobogo.com/Algorithms/Bellman_Ford_shortestpath_algorithm.php
 
 2. Video:
    	* https://www.youtube.com/watch?v=05WQNgR4Urk
  
-## Bit Wise Operation :
+## Bit Wise Operation 
 1. Article :
    	* http://zobayer.blogspot.com/2009/12/bitwise-operations-in-cc-part-1.html
    	* http://zobayer.blogspot.com/2009/12/bitwise-operations-in-c-part-2.html
@@ -32,7 +32,7 @@
 1. Video:
   	* https://www.youtube.com/watch?v=2j5Ic2V7wq4
 
-## Histogram :
+## Histogram 
 1. Article:
 	* http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
 
@@ -48,7 +48,7 @@
 1. Article:
 	* http://codeforces.com/blog/entry/3107
 
-## Euler Circuit/Path Print:
+## Euler Circuit/Path Print
 1. Article:
 	* http://www.graph-magics.com/articles/euler.php
 
@@ -69,22 +69,22 @@
 		* http://threads-iiith.quora.com/String-Hashing-for-competitive-programming 
 	2. > Double hashing with unordered_map require hash function to overload. Here is the [function](https://github.com/Kimbbakar/Contest-Resource/blob/master/String/Template/Unorderd%20map%20with%20pair%20.cpp).
 
-## Matrix Exponential:
+## Matrix Exponential
 1. Article:
 	* http://zobayer.blogspot.com/2010/11/matrix-exponentiation.html
 
-## Max Flow - Min Cut:
+## Max Flow - Min Cut
 1. Article:
 	* http://www.shafaetsplanet.com/planetcoding/?p=2195
 
-## Meet in the middle:
+## Meet in the middle
 1. Article:
 	* http://www.shafaetsplanet.com/planetcoding/?p=1756
 
 2. Problem Link:
 	* http://codeforces.com/problemset/problem/912/E
 
-## Game Theory :
+## Game Theory 
 * Nim Game:
 	1. Video Tutorial:
 		* https://www.youtube.com/watch?v=ORaGSyewF9Q
@@ -97,7 +97,7 @@
 * Problem:
 	* https://www.hackerrank.com/contests/5-days-of-game-theory/challenges
 
-## Segment Tree :
+## Segment Tree 
 1. Article:
 	* (Segement Tree) http://www.shafaetsplanet.com/planetcoding/?p=1557
 	* (Lazy Propagation) http://www.shafaetsplanet.com/planetcoding/?p=1591
@@ -108,12 +108,12 @@
 	* https://www.youtube.com/watch?v=PZQ0Pdk15RA  
 	* http://en.algoritmy.net/article/44220/Tarjans-algorithm
  
-## Two Pointer : 
+## Two Pointer 
 1. Post:
 	* http://codeforces.com/blog/entry/4586#comment-93047
 
 
-## MO’s Algorithm:
+## MO’s Algorithm
 1. Article:
 	* https://blog.anudeep2011.com/mos-algorithm/
 	* [MO's on Tree]( http://codeforces.com/blog/entry/43230)
@@ -128,7 +128,7 @@
 	* http://www.graph-magics.com/articles/euler.php
 
 
-## Calculate (a^b^c) % mod
+## Calculate $(a^b^c) % mod
 1. Article:
 	* http://stackoverflow.com/questions/4223313/finding-abc-mod-m
 

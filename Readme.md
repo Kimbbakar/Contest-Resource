@@ -1,19 +1,33 @@
-## A* Search / IDA* Search
-1. Article:
-	* http://rendon.x10.mx/a-star/
-2. Video:
-	* https://www.youtube.com/watch?v=DhtSZhakyOo
-	* https://www.youtube.com/watch?v=l9tWYsUnzkw (Heuristic value )
-	* https://www.youtube.com/watch?v=b19e0_NlD-U (8 Puzzle Problem ) 
-	* http://en.wikipedia.org/wiki/IDA* (Difference between A* & IDA*)
+## Graph Theory
+* A* Search / IDA* Search
+	1. Article:
+		* http://rendon.x10.mx/a-star/
+	2. Video:
+		* https://www.youtube.com/watch?v=DhtSZhakyOo
+		* https://www.youtube.com/watch?v=l9tWYsUnzkw (Heuristic value )
+		* https://www.youtube.com/watch?v=b19e0_NlD-U (8 Puzzle Problem ) 
+		* http://en.wikipedia.org/wiki/IDA* (Difference between A* & IDA*)
 
-## Bellman Ford 
-1. Article:
-	* http://www.bogotobogo.com/Algorithms/Bellman_Ford_shortestpath_algorithm.php
+* Bellman Ford 
+	1. Article:
+		* http://www.bogotobogo.com/Algorithms/Bellman_Ford_shortestpath_algorithm.php
 
-2. Video:
-   	* https://www.youtube.com/watch?v=05WQNgR4Urk
- 
+	2. Video:
+		* https://www.youtube.com/watch?v=05WQNgR4Urk
+
+* Euler Circuit/Path Print
+	1. Article:
+		* http://www.graph-magics.com/articles/euler.php
+		
+* Max Flow - Min Cut
+	1. Article:
+		* http://www.shafaetsplanet.com/planetcoding/?p=2195
+
+* Strongly Connected Component: (Kosaraju + Tarjan )
+	1. Video:
+		* https://www.youtube.com/watch?v=PZQ0Pdk15RA  
+		* http://en.algoritmy.net/article/44220/Tarjans-algorithm
+
 ## Bit Wise Operation 
 1. Article :
    	* http://zobayer.blogspot.com/2009/12/bitwise-operations-in-cc-part-1.html
@@ -43,15 +57,6 @@
 	* https://www.youtube.com/watch?v=ohHWQf1HDfU
 > Another way to find Max Sub-array by use 2 pointer : Suppose i & j 2 point . i+1 = left point of a sub array , j=right point of sub-array . We iterate j from left to right over our array and update our answer variable by max(answer, q_sum[j]-q_sum[i] ) . We update i if (array[i] > array[j] ) coz we all time try to cut out less value from our answer . R8 ?
 
-
-## Z algo
-1. Article:
-	* http://codeforces.com/blog/entry/3107
-
-## Euler Circuit/Path Print
-1. Article:
-	* http://www.graph-magics.com/articles/euler.php
-
 ## String Matching
 * Knuth morris pratt:
 	1. Article:
@@ -59,6 +64,11 @@
 	2. Video :
 		* https://www.youtube.com/watch?v=v82y5TCcBhQ
 	> Note : In failure function of KMP , we build an array lps. lps[i] = the longest proper prefix of pat[0..i] which is also a suffix of pat[0..i].
+
+
+* Z algo
+	1. Article:
+		* http://codeforces.com/blog/entry/3107
 
 * Suffix Array
 	1. Article:
@@ -72,10 +82,6 @@
 ## Matrix Exponential
 1. Article:
 	* http://zobayer.blogspot.com/2010/11/matrix-exponentiation.html
-
-## Max Flow - Min Cut
-1. Article:
-	* http://www.shafaetsplanet.com/planetcoding/?p=2195
 
 ## Meet in the middle
 1. Article:
@@ -102,11 +108,6 @@
 	* (Segement Tree) http://www.shafaetsplanet.com/planetcoding/?p=1557
 	* (Lazy Propagation) http://www.shafaetsplanet.com/planetcoding/?p=1591
 
-
-## Strongly Connected Component: (Kosaraju + Tarjan )
-1. Video:
-	* https://www.youtube.com/watch?v=PZQ0Pdk15RA  
-	* http://en.algoritmy.net/article/44220/Tarjans-algorithm
  
 ## Two Pointer 
 1. Post:
@@ -121,11 +122,6 @@
 ## Trie / Prefix Tree / Radix Tree
 1. Article:
 	* http://www.shafaetsplanet.com/planetcoding/?p=1679
- 
-
-## Printing Euler Path
-1. Article: 
-	* http://www.graph-magics.com/articles/euler.php
 
 
 ## Calculate (a^b)^c % mod 

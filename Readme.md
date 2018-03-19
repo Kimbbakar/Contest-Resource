@@ -103,30 +103,32 @@
 * Problem:
 	* https://www.hackerrank.com/contests/5-days-of-game-theory/challenges
 
-## Segment Tree 
+## Dat Structure
+* Segment Tree 
 1. Article:
 	* (Segement Tree) http://www.shafaetsplanet.com/planetcoding/?p=1557
 	* (Lazy Propagation) http://www.shafaetsplanet.com/planetcoding/?p=1591
 
  
-## Two Pointer 
+* Two Pointer 
 1. Post:
 	* http://codeforces.com/blog/entry/4586#comment-93047
 
 
-## MO’s Algorithm
+* MO’s Algorithm
 1. Article:
 	* https://blog.anudeep2011.com/mos-algorithm/
 	* [MO's on Tree]( http://codeforces.com/blog/entry/43230)
 2. Video:
 	* [MO's with Update] (https://www.youtube.com/watch?v=gUpfwVRXhNY)
 
-## Trie / Prefix Tree / Radix Tree
+* Trie / Prefix Tree / Radix Tree
 1. Article:
 	* http://www.shafaetsplanet.com/planetcoding/?p=1679
 
 
-## Calculate (a^b)^c % mod 
+## Number Theory 
+* Calculate (a^b)^c % mod 
 1. Article:
 	* http://stackoverflow.com/questions/4223313/finding-abc-mod-m
 

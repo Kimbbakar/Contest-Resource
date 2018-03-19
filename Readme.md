@@ -118,6 +118,8 @@
 1. Article:
 	* https://blog.anudeep2011.com/mos-algorithm/
 	* [MO's on Tree]( http://codeforces.com/blog/entry/43230)
+2. Video:
+	* [MO's with Update] (https://www.youtube.com/watch?v=gUpfwVRXhNY)
 
 ## Trie / Prefix Tree / Radix Tree
 1. Article:

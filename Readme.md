@@ -42,10 +42,6 @@
 1. Article:
 	* http://www.codechef.com/wiki/tutorial-expectation 
 
-## Gaussian Elimination
-1. Video:
-  	* https://www.youtube.com/watch?v=2j5Ic2V7wq4
-
 ## Histogram 
 1. Article:
 	* http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
@@ -132,6 +128,8 @@
 	1. Article:
 		* http://stackoverflow.com/questions/4223313/finding-abc-mod-m
 
-
+* Gaussian Elimination
+	1. Video:
+		* https://www.youtube.com/watch?v=2j5Ic2V7wq4
 
 

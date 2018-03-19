@@ -94,7 +94,7 @@
 * Nim Game:
 	1. Video Tutorial:
 		* https://www.youtube.com/watch?v=ORaGSyewF9Q
-	2.	Article:
+	2. Article:
 		* http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=algorithmGames
 
 * Staircase Case Nim:
@@ -105,33 +105,32 @@
 
 ## Dat Structure
 * Segment Tree 
-1. Article:
-	* (Segement Tree) http://www.shafaetsplanet.com/planetcoding/?p=1557
-	* (Lazy Propagation) http://www.shafaetsplanet.com/planetcoding/?p=1591
+	1. Article:
+		* (Segement Tree) http://www.shafaetsplanet.com/planetcoding/?p=1557
+		* (Lazy Propagation) http://www.shafaetsplanet.com/planetcoding/?p=1591
 
  
 * Two Pointer 
-1. Post:
-	* http://codeforces.com/blog/entry/4586#comment-93047
+	1. Post:
+		* http://codeforces.com/blog/entry/4586#comment-93047
 
 
 * MO’s Algorithm
-1. Article:
-	* https://blog.anudeep2011.com/mos-algorithm/
-	* [MO's on Tree]( http://codeforces.com/blog/entry/43230)
-2. Video:
-	* [MO's with Update] (https://www.youtube.com/watch?v=gUpfwVRXhNY)
+	1. Article:
+		* https://blog.anudeep2011.com/mos-algorithm/
+		* [MO's on Tree]( http://codeforces.com/blog/entry/43230)
+	2. Video:
+		* [MO's with Update] (https://www.youtube.com/watch?v=gUpfwVRXhNY)
 
 * Trie / Prefix Tree / Radix Tree
-1. Article:
-	* http://www.shafaetsplanet.com/planetcoding/?p=1679
+	1. Article:
+		* http://www.shafaetsplanet.com/planetcoding/?p=1679
 
 
 ## Number Theory 
 * Calculate (a^b)^c % mod 
-1. Article:
-	* http://stackoverflow.com/questions/4223313/finding-abc-mod-m
-
+	1. Article:
+		* http://stackoverflow.com/questions/4223313/finding-abc-mod-m
 
 
 

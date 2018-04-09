@@ -30,6 +30,7 @@ bool dfs (int v)
 int bpm(int n)
 {
     int cnt=0;
+    reset(rmatch,-1);
     for(int i=1;i<=n;i++)
     {
         reset(visit,false);

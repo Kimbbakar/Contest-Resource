@@ -6,7 +6,7 @@ can have loops, multiple edges, cycles
 
 int src, snk, nNode, nEdge;
 int Q[MAXN], fin[MAXN], pro[MAXN], dist[MAXN];
-int flow[MAXE], cap[MAXE], next[MAXE], to[MAXE];
+int flow[MAXE], cap[MAXE], Next[MAXE], to[MAXE];
 
 inline void init(int _src, int _snk, int _n) {
     src = _src, snk = _snk, nNode = _n, nEdge = 0;
@@ -15,9 +15,9 @@ inline void init(int _src, int _snk, int _n) {
 
 inline void add(int u, int v, int _cap) {
     to[nEdge] = v, cap[nEdge] = _cap, flow[nEdge] = 0;
-    next[nEdge] = fin[u], fin[u] = nEdge++;
+    Next[nEdge] = fin[u], fin[u] = nEdge++;
     to[nEdge] = u, cap[nEdge] = _cap, flow[nEdge] = 0;
-    next[nEdge] = fin[v], fin[v] = nEdge++;
+    Next[nEdge] = fin[v], fin[v] = nEdge++;
 }
 
 bool bfs() {
@@ -27,7 +27,7 @@ bool bfs() {
     Q[en++] = src;
     while(st < en) {
         u = Q[st++];
-        for(i=fin[u]; i>=0; i=next[i]) {
+        for(i=fin[u]; i>=0; i=Next[i]) {
             v = to[i];
             if(flow[i] < cap[i] && dist[v]==-1) {
                 dist[v] = dist[u]+1;
@@ -40,7 +40,7 @@ bool bfs() {
 
 int dfs(int u, int fl) {
     if(u==snk) return fl;
-    for(int &e=pro[u], v, df; e>=0; e=next[e]) {
+    for(int &e=pro[u], v, df; e>=0; e=Next[e]) {
         v = to[e];
         if(flow[e] < cap[e] && dist[v]==dist[u]+1) {
             df = dfs(v, min(cap[e]-flow[e], fl));

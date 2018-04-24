@@ -4,6 +4,12 @@ works on undirected graph
 can have loops, multiple edges, cycles
 */
 
+#define MAXN 250
+#define MAXE 5000
+#define SET(x) reset(x,-1)
+#define i64 int
+#define INF inf
+
 int src, snk, nNode, nEdge;
 int Q[MAXN], fin[MAXN], pro[MAXN], dist[MAXN];
 int flow[MAXE], cap[MAXE], Next[MAXE], to[MAXE];
@@ -16,6 +22,10 @@ inline void init(int _src, int _snk, int _n) {
 inline void add(int u, int v, int _cap) {
     to[nEdge] = v, cap[nEdge] = _cap, flow[nEdge] = 0;
     Next[nEdge] = fin[u], fin[u] = nEdge++;
+    /*
+        If graph is directed, _cap = 0 from here.
+    */
+    
     to[nEdge] = u, cap[nEdge] = _cap, flow[nEdge] = 0;
     Next[nEdge] = fin[v], fin[v] = nEdge++;
 }

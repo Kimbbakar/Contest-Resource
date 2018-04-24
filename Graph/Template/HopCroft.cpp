@@ -64,8 +64,8 @@ bool DFS(int u) {
 
 int hopcroft_karp() {
     int matching = 0;
-    mems(Left,0);
-    mems(Right,0);
+    reset(Left,0);
+    reset(Right,0);
     N = lCnt;
     while(BFS()){
         for(int i = 1; i<=N; i++){

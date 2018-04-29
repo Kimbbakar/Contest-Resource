@@ -11,11 +11,23 @@ bool dfs (int v)
     for(int i=0;i<sz(lst[v]);i++)
     {
         int u=lst[v][i];
+  
+        if(rmatch[u]==-1   )
+        {
+            rmatch[u]=v;
+            match[v]=u;
+            return true;
+        } 
+    }
 
+    for(int i=0;i<sz(lst[v]);i++)
+    {
+        int u=lst[v][i];
+ 
         if(!visit[u] )
         {
-             visit[u]=true;
-            if(rmatch[u]==-1 || dfs(rmatch[u] ) )
+            visit[u]=true;
+            if(dfs(rmatch[u] ) )
             {
                 rmatch[u]=v;
                 match[v]=u;
@@ -23,7 +35,7 @@ bool dfs (int v)
             }
         }
     }
-
+ 
     return false;
 }
 

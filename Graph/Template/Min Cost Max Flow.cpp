@@ -66,24 +66,44 @@ bool bellmanFord()
     return (mark[_sink]<(inf) );
 }
 
-pair<int,ll> mcmf(){
+ll minFlow(){
+    ll mnfl = inf;
+    int y=_sink;
+    while(path[y]!=-1){   
+        mnfl = min(cap[path[y]],mnfl);
+        y=edges[ path[y] ].F ;
+    }    
+
+    return mnfl;
+}
+
+ll FlowCost( ll mnfl ) {
+
+    ll fcost = 0;
+
+    int y=_sink;
+    while(path[y]!=-1){
+        cap[path[y]]-=mnfl;   
+        cap[path[y]^1]+=mnfl;   
+
+        flow[path[y]]+=mnfl;   
+        flow[path[y]^1]-=mnfl;   
+
+        fcost+=(mnfl*cost[path[y] ] );
+        y=edges[ path[y] ].F ;
+    }     
+
+    return fcost;
+}
+
+pair<ll,ll> mcmf(ll p){
     ll ans = 0;
-    int cnt = 0;
-    while(bellmanFord() )
+    ll cnt = 0;
+    while(bellmanFord())
     {
-        cnt ++;
-        int y=_sink;
-        while(path[y]!=-1){ 
-            cap[path[y]]--;
-            cap[path[y]^1]++;
-
-            flow[path[y]]++;
-            flow[path[y]^1]--;
-
-            ans+=cost[ path[y] ];
-            y=edges[ path[y] ].F ;
-        }
- 
+        int mnfl = minFlow() ; 
+        cnt+=mnfl;
+        ans+=FlowCost(mnfl);
     }    
 
     return {cnt,ans};

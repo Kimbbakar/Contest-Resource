@@ -96,7 +96,7 @@ ll FlowCost( ll mnfl ) {
     return fcost;
 }
 
-pair<ll,ll> mcmf(ll p){
+pair<ll,ll> mcmf(){
     ll ans = 0;
     ll cnt = 0;
     while(bellmanFord())

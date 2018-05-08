@@ -1,13 +1,3 @@
- /*
- Problem name :
- Algorithm : Not Sure Yet
- Contest/Practice :
- Source :
- Comment : Whenever you start to believe  yourself, people also start to believe in you
- Date : --
- Last Update : 25-Mar-2015
-*/
-
 #include<bits/stdc++.h>
 
 #define pause           system("pause");

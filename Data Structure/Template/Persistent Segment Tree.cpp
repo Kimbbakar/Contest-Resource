@@ -7,7 +7,7 @@ public:
 };
 
 PersistentSegTree tree[4*MAX];
-int StartNode[100004];
+int StartNode[MAX];
 int u,v,s,id;
 
 //  [l,r] = range cover by tree

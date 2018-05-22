@@ -34,9 +34,9 @@ void update(int &node,int l,int r){
 }
 
 
-void qu(int &node,int l,int r){
+void qu(int node,int l,int r){
 
-    if(v<l or r<u) return;
+    if(v<l or r<u  or !node ) return;
 
     if(u<=l and r<=v){
         s= max(tree[node].v,s);
@@ -47,4 +47,10 @@ void qu(int &node,int l,int r){
 
     qu(tree[node].left ,l,mid);
     qu(tree[node].right,mid+1,r);
+}
+
+void clearTree(){
+    for(int i=0;i<=id;i++)
+        tree[i].clr();
+    id = 0;
 }

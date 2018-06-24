@@ -1,11 +1,21 @@
- vector<int>aj_list[100];
- int id=1;
- int visit[100];
- int scc[100];
- int bcc[100],bi=0;
- stack<int>s;
+#define MAX 5004
 
- int tarjan(int nod,int p)
+vector<int>lst[MAX];
+int id=1;
+int visit[MAX];
+int scc[MAX];
+int bcc[MAX],bi=0;
+stack<int>s;
+int n; // number of nodes;
+
+void clr(){
+    reset(visit,0);
+    for(int i=0;i<=n;i++)
+        lst[i].clear();
+    id = 1;
+}
+
+int tarjan(int nod,int p)
 {
     visit[nod]=1;
     scc[nod]=id;

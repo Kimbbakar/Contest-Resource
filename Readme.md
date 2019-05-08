@@ -122,6 +122,9 @@
 	1. Article:
 		* http://www.shafaetsplanet.com/planetcoding/?p=1679
 
+* Centroid Decomposition
+	1. Article:
+		* https://threads-iiith.quora.com/Centroid-Decomposition-of-a-Tree
 
 ## Number Theory 
 * Calculate (a^b)^c % mod 

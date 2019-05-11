@@ -99,7 +99,7 @@
 * Problem:
 	* https://www.hackerrank.com/contests/5-days-of-game-theory/challenges
 
-## Dat Structure
+## Data Structure
 * Segment Tree 
 	1. Article:
 		* (Segement Tree) http://www.shafaetsplanet.com/planetcoding/?p=1557
